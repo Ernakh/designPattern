@@ -1,0 +1,13 @@
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\netcoreapp3.1\PadroesDeProjeto.exe
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\netcoreapp3.1\PadroesDeProjeto.deps.json
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\netcoreapp3.1\PadroesDeProjeto.runtimeconfig.json
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\netcoreapp3.1\PadroesDeProjeto.runtimeconfig.dev.json
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\netcoreapp3.1\PadroesDeProjeto.dll
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\bin\Debug\netcoreapp3.1\PadroesDeProjeto.pdb
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\netcoreapp3.1\PadroesDeProjeto.csproj.AssemblyReference.cache
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\netcoreapp3.1\PadroesDeProjeto.AssemblyInfoInputs.cache
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\netcoreapp3.1\PadroesDeProjeto.AssemblyInfo.cs
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\netcoreapp3.1\PadroesDeProjeto.csproj.CoreCompileInputs.cache
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\netcoreapp3.1\PadroesDeProjeto.dll
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\netcoreapp3.1\PadroesDeProjeto.pdb
+C:\Users\fabri\source\repos\PadroesDeProjeto\PadroesDeProjeto\obj\Debug\netcoreapp3.1\PadroesDeProjeto.genruntimeconfig.cache
