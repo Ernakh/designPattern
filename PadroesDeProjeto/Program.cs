@@ -11,6 +11,8 @@ namespace PadroesDeProjeto
     {
         static void Main(string[] args)
         {
+            //CRIAÇÃO
+
             #region Factory Method
 
             /*
@@ -159,6 +161,121 @@ namespace PadroesDeProjeto
             Console.WriteLine("");
 
             #endregion
+
+            //ESTRUTURA
+
+            #region Facade
+
+            /*
+           
+             */
+
+            Console.WriteLine("Facade");
+            Console.WriteLine();
+
+          
+
+
+            Console.WriteLine("");
+            Console.WriteLine("=============================");
+            Console.WriteLine("");
+
+            #endregion
+
+            #region Composite
+
+            /*
+           
+             */
+
+            Console.WriteLine("Composite");
+            Console.WriteLine();
+
+
+
+
+            Console.WriteLine("");
+            Console.WriteLine("=============================");
+            Console.WriteLine("");
+
+            #endregion
+
+            #region Adapter
+
+            /*
+           
+             */
+
+            Console.WriteLine("Adapter");
+            Console.WriteLine();
+
+
+
+
+            Console.WriteLine("");
+            Console.WriteLine("=============================");
+            Console.WriteLine("");
+
+            #endregion
+
+            #region Front Controller
+
+            /*
+           
+             */
+
+            Console.WriteLine("Front Controller");
+            Console.WriteLine();
+
+
+
+
+            Console.WriteLine("");
+            Console.WriteLine("=============================");
+            Console.WriteLine("");
+
+            #endregion
+
+            #region Decorator
+
+            /*
+           
+             */
+
+            Console.WriteLine("Decorator");
+            Console.WriteLine();
+
+
+
+
+            Console.WriteLine("");
+            Console.WriteLine("=============================");
+            Console.WriteLine("");
+
+            #endregion
+
+            #region Bridge
+
+            /*
+           
+             */
+
+            Console.WriteLine("Bridge");
+            Console.WriteLine();
+
+
+
+
+            Console.WriteLine("");
+            Console.WriteLine("=============================");
+            Console.WriteLine("");
+
+            #endregion
+
+
+            //COMPORTAMENTO
+
+
         }
     }
 }
