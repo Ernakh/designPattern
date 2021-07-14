@@ -13,7 +13,7 @@ namespace PadroesDeProjeto.Prototype
 
         private FerrariPrototype(FerrariPrototype ferrariPrototype)
         {
-            this.valorCompra = ferrariPrototype.getValorCompra();
+            this.valorCompra = ferrariPrototype.getValorCompra();//clono os valores dos atributos
         }
 
         public override CarroPrototype clonar()

@@ -7,7 +7,7 @@ namespace PadroesDeProjeto.Singleton_
     //implementação básica
     public class Singleton
     {
-        //objeto que mantem a instnacia da classe
+        //objeto que mantem a instancia da classe
         private static Singleton instance = null;
 
         private Singleton()
