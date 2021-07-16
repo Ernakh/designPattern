@@ -17,8 +17,7 @@ namespace PadroesDeProjeto.Mediator_
         }
         public void Notify(string message)
         {
-            Console.WriteLine("Colleague1 gets message: "
-                + message);
+            Console.WriteLine("Colleague1 gets message: " + message);
         }
     }
 }

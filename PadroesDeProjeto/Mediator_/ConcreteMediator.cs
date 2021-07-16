@@ -8,6 +8,7 @@ namespace PadroesDeProjeto.Mediator_
     {
         ConcreteColleague1 colleague1;
         ConcreteColleague2 colleague2;
+
         public ConcreteColleague1 Colleague1
         {
             set { colleague1 = value; }

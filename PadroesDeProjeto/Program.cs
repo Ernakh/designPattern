@@ -30,6 +30,7 @@ namespace PadroesDeProjeto
         static void Main(string[] args)
         {
             //CRIAÇÃO
+
             #region Factory Method
 
             /*
@@ -213,7 +214,6 @@ namespace PadroesDeProjeto
             PresenteUnico fone = new PresenteUnico("Smartphone", 256);
             fone.CalcularPrecoTotal();
 
-
             CompositePresente caixa = new CompositePresente("caixa", 0);
             PresenteUnico brinquedo1 = new PresenteUnico("brinquedo1", 289);
             PresenteUnico brinquedo2 = new PresenteUnico("brinquedo2", 587);
@@ -224,7 +224,6 @@ namespace PadroesDeProjeto
             caixa2.Adicionar(brinquedo3);
             caixa.Adicionar(caixa2);
             Console.WriteLine($"Preço total do presente composto: {caixa.CalcularPrecoTotal()}");
-
 
             Console.WriteLine("");
             Console.WriteLine("=============================");
@@ -296,8 +295,7 @@ namespace PadroesDeProjeto
 
             Console.WriteLine();
 
-            PessoaRapida pessoaRapida;
-            pessoaRapida = new PessoaRapida(pessoaNormal);
+            PessoaRapida pessoaRapida = new PessoaRapida(pessoaNormal);
 
             Console.WriteLine("usando PessoaRapida:");
             Console.WriteLine(pessoaRapida.Andar());
@@ -305,8 +303,7 @@ namespace PadroesDeProjeto
 
             Console.WriteLine();
 
-            PessoaLenta pessoaLenta;
-            pessoaLenta = new PessoaLenta(pessoaNormal);
+            PessoaLenta pessoaLenta = new PessoaLenta(pessoaNormal);
 
             Console.WriteLine("usando PessoaLenta:");
             Console.WriteLine(pessoaLenta.Andar());
@@ -320,7 +317,7 @@ namespace PadroesDeProjeto
             #region Bridge
 
             /*
-           
+           Utilizado quando deseja que uma interface poderá variar sem depender das suas implementações
              */
 
             Console.WriteLine("Bridge");
@@ -374,6 +371,7 @@ namespace PadroesDeProjeto
             /*
              Alterar o comportamento de um determinado objeto 
             de acordo com o estado no qual ele se encontra.
+
              */
 
             Console.WriteLine("State");
@@ -418,7 +416,9 @@ namespace PadroesDeProjeto
             #region Chain of Responsibility
 
             /*
-             
+             - Varios objetos podem receber/tratar uma requisição
+             - O remetente não sabe quem vai tratar a solução
+             - Varios vão receber, até chegar naquele que resolve o problema
              */
 
             Console.WriteLine("Chain of Responsibility");
@@ -533,6 +533,8 @@ namespace PadroesDeProjeto
             #endregion
 
             #region Visitor
+
+            //****************************************************
 
             /*
              Representar uma operação a ser executada nos elementos 
